@@ -35,7 +35,7 @@ function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
   // Only change code below this line
       let length = encodedStr.length;
-	for( let i=0;i< length ;i++)
+	for( let int i=0 ;i< length ;i++)
 		{
 			decodedArr[i] = lookup[encodedStr[i]];
 		}
